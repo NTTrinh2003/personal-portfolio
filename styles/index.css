@@ -1,0 +1,53 @@
+/*** DISPLAY TEMPLATE ***/
+
+main {
+    display: grid;
+    grid-template-areas: 
+        "title      title"
+        "skills     projects"
+        "skills     experience"
+        "skills     education";
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 3fr;
+}
+
+#main-title {
+    grid-area: title;
+}
+
+.container#skills {
+    grid-area: skills;
+}
+
+.container#projects {
+    grid-area: projects;
+}
+
+.container#experience {
+    grid-area: experience;
+}
+
+.container#education {
+    grid-area: education;
+}
+
+/* STYLES */
+
+#skills ul {
+    padding-left: 1rem;
+}
+
+#skills ul ul {
+    padding-left: 1rem;
+}
+
+.li-item-1 {
+    /* list-style-type: none; */
+    font-size: medium;
+    border-bottom: solid black 0.5px;
+}
+
+.li-item-2 {
+    /* list-style-type: none; */
+    font-size: small;
+}

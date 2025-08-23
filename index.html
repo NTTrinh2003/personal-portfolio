@@ -8,102 +8,135 @@
         <meta name="description" content="Basic frontend portfolio of Trinh Nguyen, Fresher Fullstack Developer">
         <meta name="keywords" content="Fullstack Developer, Portfolio, Web Development">
         <meta name="author" content="Trinh Nguyen">
+        <link rel="stylesheet" type="text/css" href="./styles/style.css">
+        <link rel="stylesheet" type="text/css" href="./styles/index.css">
     </head>
     <body>
         <header>
-            <h3>Trinh Nguyen</h3>
             <nav class="navbar">
+                <h3>Trinh Nguyen</h3>
                 <ul>
-                    <li><a href="#" class="btn active">Home</a></li>
-                    <li><a href="projects.html" class="btn inactive">Projects</a></li>
-                    <li><a href="articles.html" class="btn inactive">Articles</a></li>
-                    <li><a href="contact.html" class="btn inactive">Contacts</a></li>
+                    <li><div class="btn btn-navbar active"><a href="#">Home</a></div></li>
+                    /
+                    <li><div class="btn btn-navbar inactive"><a href="articles.html">Skills</a></div></li>
+                    /
+                    <li><div class="btn btn-navbar inactive"><a href="projects.html">Projects</a></div></li>
+                    /
+                    <li><div class="btn btn-navbar inactive"><a href="contact.html">Contacts</a></div></li>
                 </ul>
             </nav>
         </header>
         <main>
             <header id="main-title">
                 <h1>Fullstack Developer</h1>
-                <p>I am a passionate and dedicated Fullstack Developer with a strong foundation in HTML, CSS, and JavaScript.<br>My goal is to create engaging and user-friendly web applications.</p>
+                <p>My frontend development portfolio</p>
             </header>
-            <section id="evaluation">
-                <article id="projects">
-                    <h4>Projects</h4>
-                    <ul>
-                        <li>HTML Only Portfolio</li>
-                        <li>Calculator</li>
-                        <li>Quiz App</li>
-                        <li>Countdown Timer</li>
-                        <li>Product Upcoming Page</li>
-                    </ul>
-                </article>
-
-                <article id="experience">
-                    <h4>Work Experience</h4>
-                    <ul>
-                        <li>
-                            <article>
-                                <h5>Roadmap.sh</h5>
-                                <h6>2023 - Present</h6>
-                                <p>Solved 30% of both frontend and backend projects</p>
-                                <a href="#">Visit my profile</a>
-                            </article>
-                        </li>
-                        <!-- <li>
-                            <article>
-                                <h5>Freelance Web Developer</h5>
-                                <h6>2025 - Present</h6>
-                                <p>
-                                    Worked on various projects from small to large<br>
-                                    Customers' satisfaction: 4.5/5
-                                </p>
-                                <a href="#">Visit my profile</a>
-                            </article>
-                            This is what I am going to do :))
-                        </li> -->
-                    </ul>
-                </article>
-
-                <article id="educations">
-                    <h4>Education</h4>
-                    <h5>Ho Chi Minh city University of Science, HCMUS</h5>
-                    <h6>2021 - Present</h6>
-                    <h6>Bachelor's Degree of Computer Science</h6>
-                    <p>During my academic years in HCMUS, I have better experience at:</p>
-                    <ul>
-                        <li>Software Development Process(Agile, Scrum, ...)</li>
-                        <li>Product Development Process</li>
-                        <li>User Accessibility and Data Security</li>
-                        <li>...</li>
-                    </ul>
-                </article>
+            <section id="skills" class="container">
+                <div class="inner-container">
+                    <article class="list">
+                        <h3>Skills</h3>
+                        <ul>
+                            <li class="li-item-1">Responsive Web Development</li>
+                            <li class="li-item-1">CSS Frameworks</li>
+                            <ul>
+                                <li class="li-item-2">Bootstrap</li>
+                                <li class="li-item-2">Tailwind CSS</li>
+                            </ul>
+                            <li class="li-item-1">JavaScript Libraries</li>
+                            <ul>
+                                <li class="li-item-2">ReactJS</li>
+                                <li class="li-item-2">VueJS</li>
+                                <li class="li-item-2">AngularJS</li>
+                            </ul>
+                            <li class="li-item-1">Backend Technologies</li>
+                            <ul>
+                                <li class="li-item-2">Node.js</li>
+                                <li class="li-item-2">Express.js</li>
+                                <li class="li-item-2">Django</li>
+                                <li class="li-item-2">Spring Boot</li>
+                            </ul>
+                            <li class="li-item-1">Database Management</li>
+                            <ul>
+                                <li class="li-item-2">MongoDB</li>
+                                <li class="li-item-2">PostgreSQL</li>
+                                <li class="li-item-2">Firebase</li>
+                            </ul>
+                            <li class="li-item-1">CD & CI Pipelines</li>
+                            <ul>
+                                <li class="li-item-2">Jenkins</li>
+                            </ul>
+                            <li class="li-item-1">Testing Tools</li>
+                            <ul>
+                                <li class="li-item-2">JUnit</li>
+                                <li class="li-item-2">Selenium WebDriver</li>
+                            </ul>
+                            <li class="li-item-1">Version Control Systems</li>
+                            <ul>
+                                <li class="li-item-2">Git</li>
+                                <li class="li-item-2">Github</li>
+                            </ul>
+                            <li class="li-item-1">Agile Methodologies</li>
+                            <li class="li-item-1">Problem-Solving Skills</li>
+                        </ul>
+                    </article>
+                </div>
             </section>
-            <section id="reviews">
-                <article id="professor">
-                    <h4>Reviews from my Teachers</h4>
-                    <blockquote>
-                        <p>Sample Reviews because I currently have no reviews</p>
-                        <footer>
-                            <p>Prof. Sample</p>
-                            <p>Position, Faculty</p>
-                        </footer>
-                    </blockquote>
-                </article>
-
-                <article id="employers">
-                    <h4>Reviews from my Previous Employers</h4>
-                    <blockquote>
-                        <p>Sample Reviews because I have no reviews</p>
-                        <footer>
-                            <p>Employer Sample</p>
-                            <p>Position, Faculty</p>
-                        </footer>
-                    </blockquote>
-                </article>
+            <section id="projects" class="container">
+                <div class="inner-container">
+                    <article class="list">
+                        <h3>Projects</h3>
+                        <ul>
+                            <li>Personal Portfolio</li>
+                            <li>Calculator</li>
+                            <li>To Do List</li>
+                            <li>Bike Shop App</li>
+                        </ul>
+                    </article>
+                </div>
             </section>
+            <section id="experience" class="container">
+                <div class="inner-container">
+                    <article class="list">
+                        <h3>Work Experience</h3>
+                        <ul>
+                            <li>
+                                <article>
+                                    <h4>None</h4>
+                                    <h5>2025 - Present</h5>
+                                    <p>
+                                        Working on personal project and learning new technologies<br>
+                                        Currently working on this website as an example for myself
+                                    </p>
+                                </article>
+                            </li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+            <section id="education" class="container">
+                <div class="inner-container">
+                    <article class="list">
+                        <h3>Education</h3>
+                        <ul>
+                            <li>
+                                <h4>Ho Chi Minh city University of Science, HCMUS</h4>
+                                <h5>2021 - Present</h5>
+                                <h5>Bachelor's Degree of Computer Science</h5>
+                                <p>During my academic years in HCMUS, I have better experience at:</p>
+                                <ul>
+                                    <li>Software Development Process(Agile, Scrum, ...)</li>
+                                    <li>Product Development Process</li>
+                                    <li>User Accessibility and Data Security</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+            
         </main>
         <footer>
-            <h4>&copy; All rights reserved 2025</h4>
+            <h6>&copy; All rights reserved 2025</h6>
         </footer>
     </body>
 </html>

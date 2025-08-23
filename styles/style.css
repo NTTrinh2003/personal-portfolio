@@ -1,0 +1,93 @@
+/* UNIVERSAL STYLES */
+
+* {
+    background-color: aliceblue;
+    list-style-type: none;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: color .3s ease-in-out;
+}
+
+body {
+    margin: 0px;
+}
+
+/* NAVBAR */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem 0 1rem;
+}
+.navbar ul {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.navbar li {
+    display: flex;
+    /* max-width: 4.5rem; */
+    min-width: 4.5rem;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition: all .5s ease-in;
+}
+
+.navbar li:hover {
+    transform: translateY(-3px);
+
+}
+
+.navbar li:hover a {
+    color: #0033ff;
+    font-weight: 800;
+}
+
+/* MAIN CONTENT */
+
+/** TITLE **/
+
+main {
+    margin: 0 1rem 0 1rem;
+}
+
+main header * {
+    margin: 0;
+}
+
+main header {
+    width: 20rem;
+    margin: 1rem auto 3rem auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/** SECTIONS **/
+.container {
+    border: solid 1px;
+    border-radius: 0.25rem;
+    padding: 0 1rem 1rem 0;
+}
+
+.inner-container {
+    padding-left: 1rem;
+}
+
+.container h3 {
+    border-bottom: dotted 3px black;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    bottom: 0;
+}
