@@ -9,6 +9,7 @@
         <meta name="keywords" content="Frontend Developer, Portfolio, Projects, Web Development">
         <meta name="author" content="Trinh Nguyen">
         <link rel="stylesheet" type="text/css" href="./styles/style.css">
+        <link rel="stylesheet" type="text/css" href="./styles/projects.css">
     </head>
     <body>
         <header>
@@ -16,63 +17,125 @@
                 <h3>Trinh Nguyen</h3>
                 <ul>
                     <li><div class="btn btn-navbar inactive"><a href="index.html">Home</a></div></li>
+                    /
+                    <li><div class="btn btn-navbar inactive"><a href="skills.html">Skills</a></div></li>
+                    /
                     <li><div class="btn btn-navbar active"><a href="#">Projects</a></div></li>
-                    <li><div class="btn btn-navbar inactive"><a href="articles.html">Articles</a></div></li>
+                    /
                     <li><div class="btn btn-navbar inactive"><a href="contact.html">Contacts</a></div></li>
                 </ul>
             </nav>
         </header>
-        <main>
+        <main class="main-content">
             <header id="main-title">
                 <h1>Projects</h1>
                 <p>Proof that I am what you need</p>
             </header>
 
-            <section id="project-list">
-                <article class="project" id="project-1">
-                    <h2>Project 1</h2>
-                    <p>Project description:</p>
-                    <ul>
-                        <li>What does it do?</li>
-                        <li>Whose does it for?</li>
-                        <li>How does it work?</li>
-                        <li>What does it cost?</li>
-                    </ul>
-                    <p>Why choose this projects? (Advantages)</p>
-                    <ul>
-                        <li>The project prototype needs (Brief about basic)?</li>
-                        <li>User's needs from the prototype (Show evidences of needs)?</li>
-                        <li>Average market satisfaction (Show evidences)?</li>
-                        <li>Things that are unique of the project (Show demo and Give insight of future of this feature)?</li>
-                    </ul>
-                    <p>Downside of using the project? (Disadvantage)</p>
-                    <ul>
-                        <li>Basic feature failed?</li>
-                        <li>Not all device supported (List them)? Why?</li>
-                        <li>Things need to be finish or fixed (Forward solution and set date)?</li>
-                        <li>Similar to specific product (Cloned, Forked or Show actual differences)?</li>
-                    </ul>
-                    <footer><a href="#">To project</a></footer>
+            <section class="container" id="project-1">
+                <article class="project">
+                    <header>
+                        <h2>Personal Portfolio</h2>
+                    </header>
+                    <main>
+                        <p>Project description:</p>
+                        <ul>
+                            <li><p>This project is to show what can I do. The past works, the experience, the skills, they are all in here.</p></li>
+                            <li><p>For the employer, this project is to validate my value on the proposed CV.</p></li>
+                            <li><p>The functions are simple. On the main page, click on the wanted content you want to view to redirect to the content. If you want to view my skills, projects or contact info, click on the tab on the top right.</p></li>
+                        </ul>
+                        <p>In this project I have used:</p>
+                        <ul>
+                            <li><p>Plain HTML, CSS, JavaScript</p></li>
+                            <li><p>ChatGPT and Google for styles suggestions</p></li>
+                            <li><p>Zencoder for repeatable code</p></li>
+                            <li><p>Github for version control</p></li>
+                        </ul>
+                        <p>What I learned during the project:</p>
+                        <ul>
+                            <li><p>Semantic HTML, SEO Meta tags</p></li>
+                            <li><p>CSS Grid Layout</p></li>
+                            <li><p>Responsive Web Design</p></li>
+                        </ul>
+                        <p>The project template is from <a href="https://roadmap.sh/projects/basic-html-website">roadmap.sh Project description</a></p>
+                    </main>
+                    <footer>
+                        <a href="https://github.com/NTTrinh2003/basic-html-project" class="project-link">To project</a>
+                    </footer>
                 </article>
+            </section>
 
+            <section class="container" id="project-2">
                 <article class="project" id="project-2">
-                    <h2>Project 2</h2>
-                    <p>Project description:</p>
-                    <ul>
-                        <li>What does it do? (What)</li>
-                        <li>Whose does it for? (Who)</li>
-                        <li>On what devices it will works? (Where)</li>
-                        <li>What does it cost? (How much)</li>
-                        <li>How does it work? (How)</li>
-                        <li>How does it standout for user to choose it? (Why)</li>
-                        <li>How often it will update? (When)</li>
-                    </ul>
-                    <footer><a href="#">Link to Project</a></footer>
+                    <header>
+                        <h2>Task Tracker</h2>
+                    </header>
+                    <main>
+                        <p>Project description:</p>
+                        <ul>
+                            <li>What does it do? (What)</li>
+                            <li>Whose does it for? (Who)</li>
+                            <li>On what devices it will works? (Where)</li>
+                            <li>What does it cost? (How much)</li>
+                            <li>How does it work? (How)</li>
+                            <li>How does it standout for user to choose it? (Why)</li>
+                            <li>How often it will update? (When)</li>
+                        </ul>
+                    </main>
+                    <footer><a href="#" class="project-link">Link to Project</a></footer>
+                </article>
+            </section>
+                
+            <section class="container" id="project-3">
+                <article class="project" id="project-3">
+                    <header>
+                        <h2>Workout Tracker</h2>
+                    </header>
+                    <main>
+                        <p>Project description:</p>
+                    </main>
+                    <footer><a href="#" class="project-link">Link to Project</a></footer>
+                </article>
+            </section>
+                
+            <section class="container" id="project-4">
+                <article class="project" id="project-4">
+                    <header>
+                        <h2>24hr Story Feature</h2>
+                    </header>
+                    <main>
+                        <p>Project description:</p>
+                    </main>
+                    <footer><a href="#" class="project-link">Link to Project</a></footer>
+                </article>
+            </section>
+                
+            <section class="container" id="project-5">
+                <article class="project" id="project-5">
+                    <header>
+                        <h2>Real-time Leaderboard</h2>
+                    </header>
+                    <main>
+                        <p>Project description:</p>
+                    </main>
+                    <footer><a href="#" class="project-link">Link to Project</a></footer>
+                </article>
+            </section>
+                
+            <section class="container" id="project-6">
+                <article class="project" id="project-6">
+                    <header>
+                        <h2>Scalable E-Commerce Platform</h2>
+                    </header>
+                    <main>
+                        <p>Project description:</p>
+                    </main>
+                    <footer><a href="#" class="project-link">Link to Project</a></footer>
                 </article>
             </section>
         </main>
 
-        <footer>
+        <footer id="copyright">
             <h4>&copy; All right reserved 2025</h4>
         </footer>
     </body>

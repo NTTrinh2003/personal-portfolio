@@ -1,0 +1,77 @@
+/* DISPLAY TEMPLATE */
+
+main.main-content {
+    display: grid;
+    grid-template-areas: 
+        "header         header"
+        "project-1      project-2"
+        "project-3      project-4"
+        "project-5      project-6"
+        "footer         footer";
+    grid-template-columns: 1fr 1fr;
+}
+
+header {
+    grid-area: header;
+}
+
+footer#copyright {
+    grid-area: footer;
+}
+
+.container header {
+    width: 100%;
+    border-bottom: dotted black 3px;
+}
+
+main main {
+    margin: 0;
+}
+
+.container {
+    padding: 0 1rem 2rem 1rem;
+}
+
+.container header {
+    margin-bottom: 1.5rem;
+}
+
+/* STYLES */
+
+/* PROJECT 1 */
+
+.container#project-1 {
+    grid-area: project-1;
+}
+
+/* PROJECT 2 */
+
+.container#project-2 {
+    grid-area: project-2;
+}
+
+/* PROJECT 3 */
+
+.container#project-3 {
+    grid-area: project-3;
+}
+
+/* PROJECT 4 */
+
+.container#project-4 {
+    grid-area: project-4;
+}
+
+/* PROJECT 5 */
+
+.container#project-5 {
+    grid-area: project-5;
+}
+
+/* PROJECT 6 */
+
+.container#project-6 {
+    grid-area: project-6;
+}
+
+/* RESPONSIVE WEB VIEW */
