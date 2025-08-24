@@ -38,6 +38,43 @@ main main {
 
 /* STYLES */
 
+p a {
+    color: #4261d9;
+
+}
+
+.container footer {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+main > p {
+    font-weight: 600;
+}
+
+.project > main {
+    padding: 0 0.5rem 0 0.5rem;
+}
+
+.project-link {
+    border: solid black 1px;
+    border-radius: 1rem;
+    padding: 0.25rem 0.5rem 0.35rem 0.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.project-link:hover {
+    background-color: #4261d9;
+    border: none;
+    color: aliceblue;
+}
+
+.project-link.unavailable:hover {
+    /* opacity: 0.5; */
+    cursor: not-allowed;
+    background-color: #c43131;
+}
+
 /* PROJECT 1 */
 
 .container#project-1 {
@@ -75,3 +112,18 @@ main main {
 }
 
 /* RESPONSIVE WEB VIEW */
+
+@media (max-width: 768px) {
+    main.main-content {
+        grid-template-areas:
+            "header     "
+            "project-1  "
+            "project-2  "
+            "project-3  "
+            "project-4  "
+            "project-5  "
+            "project-6  "
+            "footer     ";
+        grid-template-columns: 1fr;
+    }
+}

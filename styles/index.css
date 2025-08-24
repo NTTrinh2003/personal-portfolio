@@ -59,12 +59,6 @@ main {
 .skills-item-2 {
     font-size: small;
 }
-
-.skills-item-1:hover .skills-item-2 {
-    display: flex;
-    visibility: visible;
-}
-
 /** PROJECTS **/
 
 #projects ul {
