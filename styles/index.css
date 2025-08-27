@@ -9,6 +9,7 @@ main {
         "skills     education";
     grid-gap: 1rem;
     grid-template-columns: 1fr 3fr;
+    margin: 2rem;
 }
 
 #main-title {

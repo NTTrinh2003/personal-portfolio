@@ -9,6 +9,8 @@ main.main-content {
         "project-5      project-6"
         "footer         footer";
     grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: 2rem;
 }
 
 header {
@@ -125,5 +127,6 @@ main > p {
             "project-6  "
             "footer     ";
         grid-template-columns: 1fr;
+        gap: 1rem;
     }
 }

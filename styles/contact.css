@@ -1,0 +1,57 @@
+main {
+    display: grid;
+    grid-template-areas:
+        "header     header  header      header"
+        "phone      email   linkedin    github";
+    grid-template-columns: 15rem 15rem 15rem 15rem;
+    grid-template-rows: auto 15rem auto;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.container {
+    text-align: center;
+    align-content: center;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.container .icons-container img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.container a:hover {
+    color: #2a51fe;
+}
+
+header {
+    grid-area: header;
+}
+
+.container#phone {
+    grid-area: phone;
+}
+
+.container#email {
+    grid-area: email;
+}
+
+.container#linkedin {
+    grid-area: linkedin;
+}
+
+.container#github {
+    grid-area: github;
+}
+
+@media (max-width: 768px) {
+    main {
+        grid-template-areas:
+        "header     header"
+        "phone      email"
+        "linkedin   github";
+    grid-template-columns: 15rem 15rem;
+    grid-template-rows: auto 15rem 15rem auto;
+    }
+}

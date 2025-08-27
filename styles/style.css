@@ -51,7 +51,7 @@ body {
 }
 
 .navbar li:hover .inactive {
-    transform: translateY(-5px);
+    transform: translateY(-2px);
 }
 
 .navbar li:hover .inactive a {
